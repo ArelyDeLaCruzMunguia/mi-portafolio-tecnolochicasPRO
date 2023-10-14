@@ -12,7 +12,23 @@ Incluye recursos multimedia.
 # Secciones (capturas de pantalla)
 
 Sobre mí:
-![Alt text](assets/image.png)
+![Alt text](assets/sobre-mi.png)
+
+Proyectos:
+![Alt text](assets/proyectos.png)
+
+Experiencia:
+![Alt text](assets/experiencia.png)
+
+Hobbies:
+![Alt text](assets/hobbies.png)
+
+Educación:
+![Alt text](assets/educacion.png)
+
+Contacto:
+![Alt text](assets/contacto.png)
+
 
 # Tecnologías
 

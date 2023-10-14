@@ -32,9 +32,12 @@
       <ul class="nav nav-pills">
         <li class="nav-item"><a href="#sobre-mi" class="nav-link text-dark">Sobre mi</a></li>
         <li class="nav-item"><a href="#proyectos" class="nav-link text-dark">Proyectos</a></li>
+        <li class="nav-item"><a href="#experiencia" class="nav-link text-dark">Experiencia</a></li>
         <li class="nav-item"><a href="#hobbies" class="nav-link text-dark">Hobbies</a></li>
         <li class="nav-item"><a href="#educacion" class="nav-link text-dark">Educación</a></li>
+        <li class="nav-item"><a href="#testimonios" class="nav-link text-dark">Testimonios</a></li>
         <li class="nav-item"><a href="#contacto" class="nav-link text-dark">Contacto</a></li>
+
       </ul>
     </header>
     <section id="sobre-mi" class="container col-xxl-8 px-4 py-5">
@@ -58,8 +61,8 @@
       </div>
     </section>
 
-    <h1 class="pb-2 border-bottom">Proyectos realizados</h1>
-    <section id="proyectos" class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+    <h1 id="proyectos" class="pb-2 border-bottom">Proyectos realizados</h1>
+    <section class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
       <div class="col">
         <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
           style="background-image: url('assets/IA.png'); background-size: cover; background-repeat: no-repeat; background-position: left;">
@@ -139,7 +142,9 @@
         <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
           style="background-image: url('assets/clon.png');background-size: cover; background-repeat: no-repeat; background-position: center;">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Google</h3>
+            <a href="https://resonant-kashata-bb950b.netlify.app/">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Google</h3>
+            </a>
             <ul class="d-flex list-unstyled mt-auto">
 
               <li class="d-flex align-items-center me-3">
@@ -161,8 +166,8 @@
 
       <div class="col">
         <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-          style="background-image: url('unsplash-photo-2.jpg');">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+          style="background-image: url('assets/hamster.png');background-size: 350px 250px; background-repeat: no-repeat; background-position: center;">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
             <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Hámster</h3>
             <ul class="d-flex list-unstyled mt-auto">
               <li class="d-flex align-items-center me-3">
@@ -180,33 +185,34 @@
         </div>
       </div>
 
-      <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-          style="background-image: url('unsplash-photo-3.jpg');">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
-            <ul class="d-flex list-unstyled mt-auto">
-              <li class="me-auto">
-              </li>
-              <li class="d-flex align-items-center me-3">
-                <svg class="bi me-2" width="1em" height="1em">
-                  <use xlink:href="#geo-fill"></use>
-                </svg>
-                <small>California</small>
-              </li>
-              <li class="d-flex align-items-center">
-                <svg class="bi me-2" width="1em" height="1em">
-                  <use xlink:href="#calendar3"></use>
-                </svg>
-                <small>5d</small>
-              </li>
-            </ul>
-          </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="container px-4 py-5" id="hanging-icons">
+    <h2 id="experiencia" class="pb-2 border-bottom">Experiencia</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div
+          class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis text-center">Tecnolochicas</h3>
+          <p id="tecno-parf">Realice la capacitación de creación de páginas web con html y css, asi como la capacitación
+            para crear
+            aplicaciones de android con App inventor en los años de 2021 y 2022. Imparti cursos a niñas de nivel
+            secundaria que estudiaban en el estado de Nuevo Léon, todo esto de forma online.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div>
+          <img src="assets/tecnolochicas-logo.png" alt="tecnolochicas-logo">
         </div>
       </div>
     </div>
   </div>
-
 
   <section id="hobbies" class="container px-4 py-5" id="featured-3">
     <h2 class="pb-2 border-bottom">Hobbies</h2>
@@ -214,15 +220,14 @@
       <div class="feature col">
         <div
           class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-dark bg-gradient fs-2 mb-3">
-          <svg class="bi" width="1em" height="1em">
-            <use xlink:href="#collection"></use>
           </svg>
         </div>
         <h3 class="fs-2 text-body-emphasis"></h3>
-        <h3 class="fs-2 text-body-emphasis">Cocinar 🥣 </h3>
-        <p>Me gusta aprender a cocinar nuevos platillos de cualquier país del mundo. Cocinar es una actividad bastante
+        <h3 class="fs-2 text-body-emphasis text-center">Cocinar 🥣 </h3>
+        <p id="hobb">Me gusta aprender a cocinar nuevos platillos de cualquier país del mundo. Cocinar es una actividad bastante
           interesante en la cual se aprende mucho a ser paciente y dónde tienes que practicar mucho, siento que me ayuda
-          mucho a lograr tener mejores habilidades para programar.</p>
+          mucho a lograr tener mejores habilidades para programar y en general para poder resolver problemas en el
+          ámbito academico y laboral.</p>
         <!-- <a href="#" class="icon-link">
           Call to action
           <svg class="bi">
@@ -233,12 +238,10 @@
       <div class="feature col">
         <div
           class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-dark bg-gradient fs-2 mb-3">
-          <svg class="bi" width="1em" height="1em">
-            <use xlink:href="#people-circle"></use>
           </svg>
         </div>
-        <h3 class="fs-2 text-body-emphasis">Tiempo con mis mascotas 🐹🐱</h3>
-        <p>Algo que me gusta mucho es pdoer tener recuerdos de los seres que más amo que son mis hámster, pasar tiempo
+        <h3 class="fs-2 text-body-emphasis text-center">Tiempo con mis mascotas 🐹🐱</h3>
+        <p id="hobb">Algo que me gusta mucho es poder tener recuerdos de los seres que más amo que son mis hámsters, pasar tiempo
           con ellos, cuidarlos y quererlos es una de mis actividades favoritas, mi sueño es poder cuidar a muchos
           hámster y gatitos. </p>
         <!-- <a href="#" class="icon-link">
@@ -251,13 +254,11 @@
       <div class="feature col">
         <div
           class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-dark bg-gradient fs-2 mb-3">
-          <svg class="bi" width="1em" height="1em">
-            <use xlink:href="#toggles2"></use>
           </svg>
         </div>
-        <h3 class="fs-2 text-body-emphasis">Aprender nuevos idiomas através de la música.🎶</h3>
-        <p>Me gusta mucho explorar otros idiomas através de la música, los idiomas que más me agardan son el inglés,
-          fránces y ruso.</p>
+        <h3 class="fs-2 text-body-emphasis text-center">Aprender nuevos idiomas através de la música.🎶</h3>
+        <p id="hobb">Me gusta mucho explorar otros idiomas através de la música, los idiomas que más me agradan son el Inglés,
+          Fránces y Ruso.</p>
         <!--<a href="#" class="icon-link">
           Call to action
           <svg class="bi">
@@ -267,6 +268,7 @@
       </div>
     </div>
   </section>
+
 
   <section id="educacion" class="px-4 pt-5 my-5 text-center border-bottom">
     <h1 class="display-4 fw-bold text-body-emphasis">Educación 💻👩‍🎓</h1>
@@ -289,7 +291,7 @@
 
 
   <div class="testimonios p-5 text-center bg-body-tertiary">
-    <div class="testimonios container py-5">
+    <div class="testimonios container py-5 px-7">
       <h1 id="testimonios" class="text-body-emphasis">Testimonios 📜 </h1>
       <br>
       <p class="col-lg-8 mx-auto lead">
@@ -298,13 +300,15 @@
         <strong> Diego Pérez</strong>
       </p>
       <br>
-      <p class="col-lg-8 mx-auto lead">"Si lo que buscas es una persona comprometida, responsable, inteligente y capaz entonces Arely es la opción.Tal
+      <p class="col-lg-8 mx-auto lead">"Si lo que buscas es una persona comprometida, responsable, inteligente y capaz
+        entonces Arely es la opción.Tal
         vez habrá actividades que no sepa realizar, sin embargo ella se esforzará y motivará por aprenderlas y seguir
         elaborando su trabajo con eficiencia.
         También es una persona amable, empatica y amorosa. Estas características y más hacen que sea entrañable y que
-        disfrutes de su presencia." 
-        <strong>Itzel Arreola.</strong></p>
-        <br>
+        disfrutes de su presencia."
+        <strong>Itzel Arreola.</strong>
+      </p>
+      <br>
       <p class="col-lg-8 mx-auto lead">
         "Arely es una persona excepcional: inteligente, responsable, creativa, leal y divertida, alguien que puede
         resolver los problemas que surjan sin importar de que clase sean, siempre con la cabeza fría incluso en momentos
