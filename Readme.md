@@ -8,7 +8,7 @@ Incluye las secciones: sobre mí, proyectos, experiencia, testimonios y contacto
 
 Incluye recursos multimedia.
 
-<a href="https://jovial-zuccutto-f60209.netlify.app/" target="_blank">**Visitalo ahora** 🚀</a>
+<a href="https://graceful-lolly-d98c84.netlify.app/" target="_blank">**Visitalo ahora** 🚀</a>
 # Secciones (capturas de pantalla)
 
 Sobre mí:
@@ -24,6 +24,6 @@ Sobre mí:
 
 ## 📬 Contacto
 
-<a href="mailto:arely.delacruz.munguia@gmail.com"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="30"></img></a>
+<a href="mailto:arely.delacruz.munguia@gmail.com"><img src="https://cdn.icon-icons.com/icons2/2631/PNG/512/gmail_new_logo_icon_159149.png" width="30"></img></a>
 
 © 2023 Arely (Programa Technolochicas PRO)
