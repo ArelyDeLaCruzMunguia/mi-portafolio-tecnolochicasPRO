@@ -12,6 +12,7 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <!--link de los icon-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -43,13 +44,14 @@
             height="300" loading="lazy">
         </div>
         <div class="col-lg-6 text-center">
-          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Arely De La Cruz Munguia</h1>
+          <h1 id="titulo" class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Arely De La Cruz Munguia</h1>
           <h5 class="fw-bold text-body-emphasis">De día estudiante, de noche amante de los hámsters 🐹🖤</h5>
           <p class="lead">Estudiante de Ingeniería en Computación con experiencia dando clases de programación básica a
             estudiantes de secundaria, amante de los roedores y de Taylor Swift, lista para explorar todo aquello que es
             nuevo y desafiante.</p>
           <div class="d-grid gap-2 d-md-flex justify-content-center">
-            <button type="button" class="btn btn-info btn-lg px-4 me-md-2">Contáctame</button>
+            <a href="mailto:arely.delacruz.munguia@gmail.com">
+              <button type="button" class="contact btn btn-info btn-lg px-4 me-md-2">Contáctame</button></a>
             <!-- <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button> -->
           </div>
         </div>
@@ -108,7 +110,9 @@
         <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
           style="background-image: url('assets/CG.png');background-size: cover; background-repeat: no-repeat; background-position: left;">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Computación Gráfica</h3>
+            <a href="https://youtu.be/k1wlUpn3_YQ">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Computación Gráfica</h3>
+            </a>
             <ul class="d-flex list-unstyled mt-auto">
               <li class="me-auto">
 
@@ -129,6 +133,81 @@
       </div>
   </div>
 
+  <div class="container px-4 py-5" id="custom-cards">
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('assets/clon.png');background-size: cover; background-repeat: no-repeat; background-position: center;">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Google</h3>
+            <ul class="d-flex list-unstyled mt-auto">
+
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#geo-fill"></use>
+                </svg>
+
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#calendar3"></use>
+                </svg>
+
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('unsplash-photo-2.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Hámster</h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#geo-fill"></use>
+                </svg>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#calendar3"></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('unsplash-photo-3.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#geo-fill"></use>
+                </svg>
+                <small>California</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#calendar3"></use>
+                </svg>
+                <small>5d</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <section id="hobbies" class="container px-4 py-5" id="featured-3">
     <h2 class="pb-2 border-bottom">Hobbies</h2>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
@@ -140,7 +219,7 @@
           </svg>
         </div>
         <h3 class="fs-2 text-body-emphasis"></h3>
-        <h3 class="fs-2 text-body-emphasis">Cocinar 🥣</h3>
+        <h3 class="fs-2 text-body-emphasis">Cocinar 🥣 </h3>
         <p>Me gusta aprender a cocinar nuevos platillos de cualquier país del mundo. Cocinar es una actividad bastante
           interesante en la cual se aprende mucho a ser paciente y dónde tienes que practicar mucho, siento que me ayuda
           mucho a lograr tener mejores habilidades para programar.</p>
@@ -194,7 +273,7 @@
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">Orgullosamente estudie en la Preparatoria 5 "José Vasconcelos" perteneciente a la UNAM, para
         después ingresar a la Facultad de Ingeniería de la UNAM en dónde actualmente estoy cursando la carrera de
-        Ingeniería en Computación, a un semestre de finalizar la carrera.</p>
+        Ingeniería en Computación, en noveno semestre.</p>
       <!-- <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
         <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Primary button</button>
         <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
@@ -207,6 +286,34 @@
       </div> -->
     </div>
   </section>
+
+
+  <div class="testimonios p-5 text-center bg-body-tertiary">
+    <div class="testimonios container py-5">
+      <h1 id="testimonios" class="text-body-emphasis">Testimonios 📜 </h1>
+      <br>
+      <p class="col-lg-8 mx-auto lead">
+        "Una mujer inteligente, trabajadora y muy responsable con la cual trabajaría siempre. Apasionada por la
+        ingeniería y capaz de realizar cualquier meta que se proponga, sun duda alguna un ejemplo a seguir."
+        <strong> Diego Pérez</strong>
+      </p>
+      <br>
+      <p class="col-lg-8 mx-auto lead">"Si lo que buscas es una persona comprometida, responsable, inteligente y capaz entonces Arely es la opción.Tal
+        vez habrá actividades que no sepa realizar, sin embargo ella se esforzará y motivará por aprenderlas y seguir
+        elaborando su trabajo con eficiencia.
+        También es una persona amable, empatica y amorosa. Estas características y más hacen que sea entrañable y que
+        disfrutes de su presencia." 
+        <strong>Itzel Arreola.</strong></p>
+        <br>
+      <p class="col-lg-8 mx-auto lead">
+        "Arely es una persona excepcional: inteligente, responsable, creativa, leal y divertida, alguien que puede
+        resolver los problemas que surjan sin importar de que clase sean, siempre con la cabeza fría incluso en momentos
+        de increíble presión. Es una persona que admiro muchísimo y que considero que va a llegar muy lejos por lo
+        increíblemente capaz que es." <strong> Azul Olguín</strong>
+      </p>
+    </div>
+  </div>
+
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
     <div class="col-md-4 d-flex align-items-center">
       <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
@@ -227,12 +334,22 @@
       <a class="fs-2 text-dark" target="_blank" href="https://www.instagram.com/arely.delacruz.7/">
         <li class="bi bi-instagram ms-3"></li>
       </a>
+      <a class="fs-2 text-dark" target="_blank" href="https://github.com/ArelyDeLaCruzMunguia">
+        <li class="bi bi-github ms-3"></li>
+      </a>
     </ul>
   </footer>
   </div>
+  <!-- Link a el código de Js de bootstrap para que funciones los elementos dinámicos: carrusel, dropdowns, tooltips -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+
+  <!-- Link a el código de la biblioteca que crea el efecto de escribir -->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+  <!-- EL link que une mi código de Javascript, siempre debe ir al último, pero antes de la etiqueta body -->
+  <script src="script.js"></script>
 </body>
 
 </html>

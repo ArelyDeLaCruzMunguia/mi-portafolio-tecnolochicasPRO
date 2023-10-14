@@ -1,0 +1,19 @@
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.testimonios {
+    background-color: #fdd1d1;
+    font-style: italic;
+}
+
+.p-5.text-center.bg-body-tertiary {
+    background-color: #fdd1d1; /* Reemplaza "color_aqui" con el color que desees */
+  }
+
+.contact{
+    background-color: #cb6464;
+    border: #cb6464;
+}
