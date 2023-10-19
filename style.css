@@ -5,12 +5,12 @@ a {
 }
 
 .testimonios {
-    background-color: #fdd1d1;
+    background-color: #d9d4d4;
     font-style: italic;
 }
 
 .p-5.text-center.bg-body-tertiary {
-    background-color: #fdd1d1; /* Reemplaza "color_aqui" con el color que desees */
+    background-color: #f1eded; /* Reemplaza "color_aqui" con el color que desees */
   }
 
 .contact{
@@ -23,5 +23,31 @@ a {
 }
 
 #hobb{
+    
+    text-align: justify;
+}
+.carousel-inner img {
+    height: 400px; /* Establece la altura que desees para tus imágenes */
+    width: 100%;  /* Asegura que las imágenes ocupen el ancho completo del contenedor */
+    object-fit: cover; /* Esta propiedad recorta la imagen para ajustarse al contenedor */
+    opacity: 50%;
+}
+
+.carousel-inner {
+    background-color: #f8e2e2; /* Cambia a cualquier color que desees */
+    height: 500px;  /* Define el alto que desees para el carrusel */
+    overflow: hidden;  /* Esto asegura que las imágenes o contenido que excedan el tamaño definido no se muestren */
+}
+
+.carousel-caption {
+    color: rgb(57, 49, 49);  /* Esto hará que las letras sean negras */
+    max-width: -800px;
     text-align: center;
+    bottom: 0%;
+
+}
+
+.carousel-caption h1, .carousel-caption h5, .carousel-caption p {
+    color: rgb(57, 49, 49);  /* Esto asegura que los títulos y párrafos también sean negros */
+    
 }
